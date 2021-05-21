@@ -39,6 +39,7 @@ params:
         label: Contact
         url: /contact/
         style: link
+    logo_img: /images/Screenshot 2021-03-10 at 11.54.31.png
   footer:
     type: footer
     template: footer
