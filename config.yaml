@@ -44,13 +44,6 @@ params:
     social_links:
       - type: action
         template: action
-        label: Instagram
-        url: 'https://www.instagram.com/'
-        style: icon
-        icon: instagram
-        new_window: true
-      - type: action
-        template: action
         label: Dribbble
         url: 'https://dribbble.com/'
         style: icon
