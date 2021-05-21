@@ -1,46 +1,93 @@
 ---
-title: What are some of the best designed video games
-date: '2018-01-09'
-thumb_image: images/6_thumb.jpg
-thumb_image_alt: A handheld game console on a yellow background
-image: images/6.jpg
-image_alt: A handheld game console on a yellow background
-excerpt: >-
-  Diam sit amet nisl suscipit adipiscing bibendum est ultricies integer. Duis
-  tristique sollicitudin nibh sit amet commodo nulla facilisi.
+title: 3 mistakes that compromise data quality in your Kafka platform
+date: 2021-04-30T02:06:00+00:00
+thumb_image: "/images/robin-pierre-dpgpoiuiixk-unsplash.jpg"
+thumb_image_alt: Light streams streaking through the night
+image: "/images/robin-pierre-dpgpoiuiixk-unsplash-1.jpg"
+image_alt: Light streams streaking through the night
+excerpt: What does it look like, is it consistent, is it even usable are all questions
+  you need to ask about the quality of the data in your Kafka deployment. Here are
+  3 mistakes to avoid to ensure you always have high quality data flowing through
+  your Kafka platform.
 seo:
   type: stackbit_page_meta
   template: stackbit_page_meta
   title: What are some of the best designed video games
   description: Diam sit amet nisl suscipit adipiscing bibendum est ultricies integer
   extra:
-    - name: 'og:type'
-      value: article
-      keyName: property
-    - name: 'og:title'
-      value: What are some of the best designed video games
-      keyName: property
-    - name: 'og:description'
-      value: Diam sit amet nisl suscipit adipiscing bibendum est ultricies integer
-      keyName: property
-    - name: 'og:image'
-      value: images/6.jpg
-      keyName: property
-      relativeUrl: true
-    - name: 'twitter:card'
-      value: summary_large_image
-    - name: 'twitter:title'
-      value: What are some of the best designed video games
-    - name: 'twitter:description'
-      value: Diam sit amet nisl suscipit adipiscing bibendum est ultricies integer
-    - name: 'twitter:image'
-      value: images/6.jpg
-      relativeUrl: true
+  - name: og:type
+    value: article
+    keyName: property
+    relativeUrl: false
+  - name: og:title
+    value: What are some of the best designed video games
+    keyName: property
+    relativeUrl: false
+  - name: og:description
+    value: Diam sit amet nisl suscipit adipiscing bibendum est ultricies integer
+    keyName: property
+    relativeUrl: false
+  - name: og:image
+    value: images/6.jpg
+    keyName: property
+    relativeUrl: true
+  - name: twitter:card
+    value: summary_large_image
+    keyName: ''
+    relativeUrl: false
+  - name: twitter:title
+    value: What are some of the best designed video games
+    keyName: ''
+    relativeUrl: false
+  - name: twitter:description
+    value: Diam sit amet nisl suscipit adipiscing bibendum est ultricies integer
+    keyName: ''
+    relativeUrl: false
+  - name: twitter:image
+    value: images/6.jpg
+    relativeUrl: true
+    keyName: ''
+  robots: []
 layout: post
+subtitle: ''
+
 ---
+Kafka, as a distributed event streaming platform, can support millions, billions and even trillions of messages a day. With that much data flowing through a platform how do you know how useful any of that data is? What does it look like, is it consistent, is it even usable are all questions you need to ask about the quality of the data in your Kafka deployment. Here are 3 mistakes to avoid to ensure you always have high quality data flowing through your Kafka platform.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum nisi quis eleifend quam adipiscing vitae proin. Fermentum dui faucibus in ornare quam viverra orci sagittis. Nunc mattis enim ut tellus elementum sagittis. Sed nisi lacus sed viverra tellus. Lectus arcu bibendum at varius vel. Lacus laoreet non curabitur gravida arcu. Ipsum dolor sit amet consectetur adipiscing elit ut aliquam purus. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras. Eget dolor morbi non arcu. Volutpat est velit egestas dui id ornare arcu. Orci porta non pulvinar neque laoreet suspendisse interdum. Odio euismod lacinia at quis risus. Iaculis nunc sed augue lacus viverra. Suspendisse in est ante in nibh mauris cursus. Consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis. Non odio euismod lacinia at quis risus sed vulputate. Semper viverra nam libero justo. Amet cursus sit amet dictum sit.
+**_No.1 - Platform engineers are not data domain experts_**
 
-Diam sit amet nisl suscipit adipiscing bibendum est ultricies integer. Duis tristique sollicitudin nibh sit amet commodo nulla facilisi. Mauris augue neque gravida in fermentum et. Tincidunt lobortis feugiat vivamus at augue. Iaculis urna id volutpat lacus laoreet. Risus feugiat in ante metus dictum at tempor commodo. Commodo odio aenean sed adipiscing diam donec adipiscing tristique risus. Enim eu turpis egestas pretium aenean pharetra magna. Urna cursus eget nunc scelerisque viverra mauris in aliquam. Vulputate dignissim suspendisse in est ante in nibh mauris cursus. A cras semper auctor neque vitae. Rhoncus dolor purus non enim praesent elementum facilisis. Nam aliquam sem et tortor consequat id porta nibh venenatis. Sollicitudin ac orci phasellus egestas tellus. Et magnis dis parturient montes nascetur ridiculus.
+Centralising administration of a Kafka platform often results in platform engineers creating topics and schemas on behalf of other teams. Not only does this create a bottleneck in the process it forces the platform engineers to quality control every submission.
 
-Tincidunt lobortis feugiat vivamus at augue eget arcu. Est lorem ipsum dolor sit amet consectetur adipiscing elit. Non nisi est sit amet facilisis magna etiam tempor. Et egestas quis ipsum suspendisse. Turpis egestas pretium aenean pharetra magna. Diam sollicitudin tempor id eu nisl nunc mi ipsum. Diam in arcu cursus euismod quis viverra nibh cras. Ornare lectus sit amet est placerat in egestas erat imperdiet. Adipiscing enim eu turpis egestas pretium. Sit amet est placerat in egestas. Euismod lacinia at quis risus sed vulputate odio. Quis commodo odio aenean sed adipiscing diam. Fermentum et sollicitudin ac orci phasellus. Eget aliquet nibh praesent tristique magna. Quisque sagittis purus sit amet volutpat consequat. Diam quis enim lobortis scelerisque fermentum dui. Leo urna molestie at elementum eu facilisis sed. Eget nulla facilisi etiam dignissim. Volutpat odio facilisis mauris sit amet.
+They may need to check for duplicates or they may need to check for compliance with corporate standards or legal requirements amongst other things. They won't know the details of your data domain and won't be able to check if your schemas make sense or that they conform to any enterprise data model.
+
+These checks are usually imposed by other parts of the business, like legal, security or risk. As a result the platform engineers become accidental gatekeepers of the Kafka capability. They front up the bottleneck but ultimately that's not their 'day job'; platform engineers are not data domain experts. The quality of data doesn't improve AND the quality of the platform itself suffers.
+
+**_No.2 - Not enforcing use of a schema registry from the start_**
+
+In my opinion, schemas should not be optional for the majority of Kafka use cases. Defining a schema for each message not only provides clear documentation for any consumers but importantly allows the platform to enforce conformance to that schema rejecting any bad data.
+
+Data quality instantly improves
+
+Assuming you've set up a schema registry and the brokers are configured correctly, then as a consumer of a Kafka topic that enforces schemas you can be confident that every message you receive will be of the same quality.
+
+> Schemas move data quality to the left
+
+A secondary benefit of enforcing schemas for every producer is that the data quality 'moves left'. It is frequently the job of data wranglers in the analytics space to clean up and conform data to common standards so it all makes sense when queried together. Conforming data at the point it is published frees up that analytics processing to derive better customer insights.
+
+**_No.3 - Not automating the creation of topics and schemas_**
+
+Remember that platform engineers are not data domain experts? That's because Kafka topics and message schemas are domain specific and should be owned by the team delivering that capability (this continues to be true for automatically created topics in the Streams API and ksqlDB).
+
+> Automation empowers teams to own their data
+
+Providing an easy and consistent way to automatically create topics and schemas is an essential part of empowering teams to own their data. If there is no automation then, again, the data quality suffers with inconsistent application of standards.
+
+Equally, automation lowers the barrier to entry. If it's easy to do then people will want to do it.
+
+Making the process difficult puts people off and forces them to make shortcuts, again compromising the quality of data.
+
+The Kafka platform provides programmatic APIs and SDKs that make it possible to automate much of the cluster administration so there's really no reason not to automate.
+
+These 3 mistakes combined result in streams of bad data that will ultimately need to be cleaned up by multiple consumers to be of any use. Putting a little bit of thought and effort into roles, ownership, schemas and automation can make a huge difference to the quality of your Kafka event streams. Instead of getting overwhelmed and losing control as data streams hurtle past you at a hundred miles an hour, take a breath and inject some mindfulness into your event streams.
+
+Connect with me to learn more about how you can improve the data quality of your Kafka event streams.
