@@ -1,57 +1,65 @@
 ---
-title: Why Fonts Matter
-date: '2019-03-27'
-thumb_image: images/12_thumb.jpg
-thumb_image_alt: A pile of books on the table
-image: images/12.jpg
-image_alt: A pile of books on the table
-excerpt: >-
-  Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa
-  massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing
-  placerat lorem.
+title: Adopting Apache Kafka Is Harder Than It Looks
+date: 2021-04-20T21:17:00+00:00
+thumb_image: ''
+thumb_image_alt: ''
+image: ''
+image_alt: ''
+excerpt: I see too many instances of companies deploying Kafka simply as a shiny new
+  message bus without any consideration for how it can facilitate a paradigm shift
+  to data-driven insights.
 seo:
   type: stackbit_page_meta
   template: stackbit_page_meta
   title: Why Fonts Matter
-  description: >-
-    Amet nibh adipiscing adipiscing ante vis placerat interdum massa massa
+  description: Amet nibh adipiscing adipiscing ante vis placerat interdum massa massa
     primis
   extra:
-    - name: 'og:type'
-      value: article
-      keyName: property
-    - name: 'og:title'
-      value: Why Fonts Matter
-      keyName: property
-    - name: 'og:description'
-      value: >-
-        Amet nibh adipiscing adipiscing ante vis placerat interdum massa massa
-        primis
-      keyName: property
-    - name: 'og:image'
-      value: images/12.jpg
-      keyName: property
-      relativeUrl: true
-    - name: 'twitter:card'
-      value: summary_large_image
-    - name: 'twitter:title'
-      value: Why Fonts Matter
-    - name: 'twitter:description'
-      value: >-
-        Amet nibh adipiscing adipiscing ante vis placerat interdum massa massa
-        primis
-    - name: 'twitter:image'
-      value: images/12.jpg
-      relativeUrl: true
+  - name: og:type
+    value: article
+    keyName: property
+    relativeUrl: false
+  - name: og:title
+    value: Why Fonts Matter
+    keyName: property
+    relativeUrl: false
+  - name: og:description
+    value: Amet nibh adipiscing adipiscing ante vis placerat interdum massa massa
+      primis
+    keyName: property
+    relativeUrl: false
+  - name: og:image
+    value: images/12.jpg
+    keyName: property
+    relativeUrl: true
+  - name: twitter:card
+    value: summary_large_image
+    keyName: ''
+    relativeUrl: false
+  - name: twitter:title
+    value: Why Fonts Matter
+    keyName: ''
+    relativeUrl: false
+  - name: twitter:description
+    value: Amet nibh adipiscing adipiscing ante vis placerat interdum massa massa
+      primis
+    keyName: ''
+    relativeUrl: false
+  - name: twitter:image
+    value: images/12.jpg
+    relativeUrl: true
+    keyName: ''
+  robots: []
 layout: post
+subtitle: ''
+
 ---
-
-**Donec neque lorem**, sodales non fermentum et, aliquam quis erat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla tincidunt justo eu ante ultrices posuere. Duis cursus at massa ac tempus. Morbi sit amet mi sit amet lorem ullamcorper feugiat ac et dolor. Nullam rhoncus urna tincidunt odio ultricies, at dapibus felis facilisis. Ut condimentum nulla eget feugiat finibus. Suspendisse sit amet purus a eros dignissim commodo ut a erat.
-
-Phasellus commodo dolor sit amet, consectetur adipiscing elit. Nam a finibus magna. Sed et pulvinar dolor. Suspendisse vitae iaculis lacus. Proin vulputate, leo eget pulvinar faucibus, felis est condimentum lorem, in rhoncus neque felis ac leo. Duis felis lectus, ultrices id dolor vel, tincidunt tristique nunc. Nullam quis orci magna. Proin eget nunc et dolor hendrerit eleifend. Praesent a vehicula justo, quis convallis lacus. Phasellus porttitor, turpis vel placerat condimentum, urna felis volutpat ligula, et ultricies arcu mi ac nisl. Cras id consectetur ligula, et mollis odio. Aenean erat dui, congue vitae nisi a, aliquet lobortis eros.
-
-> The beauty of type lies in its utility, prettiness without readability serves neither author nor reader. - James Felici
-
-Sed augue lorem, porta nec lorem et, luctus egestas nunc. Sed in tellus at enim commodo pharetra. Mauris nisi ipsum, auctor nec justo non, lobortis ullamcorper magna. Pellentesque posuere posuere dolor, quis egestas est ultrices id. Cras at urna lectus. Curabitur in placerat ligula. Phasellus pharetra scelerisque lectus, id sagittis lorem pretium eget. Phasellus commodo nunc ante, nec commodo urna iaculis eu. Pellentesque euismod et ante quis vestibulum. Ut quis sapien nisi. Sed interdum sit amet sem et vestibulum. Maecenas tempor dictum leo, quis rutrum purus tincidunt vitae. Fusce vel turpis risus. Donec congue accumsan tempus. Nunc nec elit magna. Aenean luctus auctor ligula at lacinia.
-
-Donec neque lorem, sodales non fermentum et, aliquam quis erat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla tincidunt justo eu ante ultrices posuere. Duis cursus at massa ac tempus. Morbi sit amet mi sit amet lorem ullamcorper feugiat ac et dolor. Nullam rhoncus urna tincidunt odio ultricies, at dapibus felis facilisis. Ut condimentum nulla eget feugiat finibus. Suspendisse sit amet purus a eros dignissim commodo ut a erat. Maecenas pretium velit faucibus, porttitor lacus eu, eleifend sapien. In hac habitasse platea dictumst. Pellentesque nisi nisl, consectetur a accumsan sit amet, finibus vel nibh. Vivamus aliquet urna non turpis vehicula maximus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+It's easy to buy in to the allure of a near real-time data-driven business with actionable insights delighting customers.  
+  
+Kafka can certainly help with this but the platform itself is no silver bullet, it won't give you that real time business overnight.  
+  
+I see too many instances of companies deploying Kafka simply as a shiny new message bus without any consideration for how it can facilitate a paradigm shift to data-driven insights.  
+  
+This shift requires much more than the platform; beyond an event-driven mindset, at a minimum it needs discoverable content, codified governance and an empowered community.  
+  
+So why is it so hard to really get going with Kafka? What's holding you back?
