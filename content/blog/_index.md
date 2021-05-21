@@ -1,7 +1,7 @@
 ---
 title: Blog
-subtitle: 'News, tips and highlights'
-hide_title: false
+subtitle: News, tips and highlights
+hide_title: true
 col_number: three
 seo:
   type: stackbit_page_meta
@@ -9,27 +9,39 @@ seo:
   title: Blog
   description: This is the blog page
   extra:
-    - name: 'og:type'
-      value: website
-      keyName: property
-    - name: 'og:title'
-      value: Blog
-      keyName: property
-    - name: 'og:description'
-      value: This is the blog page
-      keyName: property
-    - name: 'og:image'
-      value: images/12.jpg
-      keyName: property
-      relativeUrl: true
-    - name: 'twitter:card'
-      value: summary_large_image
-    - name: 'twitter:title'
-      value: Blog
-    - name: 'twitter:description'
-      value: This is the blog page
-    - name: 'twitter:image'
-      value: images/12.jpg
-      relativeUrl: true
+  - name: og:type
+    value: website
+    keyName: property
+    relativeUrl: false
+  - name: og:title
+    value: Blog
+    keyName: property
+    relativeUrl: false
+  - name: og:description
+    value: This is the blog page
+    keyName: property
+    relativeUrl: false
+  - name: og:image
+    value: images/12.jpg
+    keyName: property
+    relativeUrl: true
+  - name: twitter:card
+    value: summary_large_image
+    keyName: ''
+    relativeUrl: false
+  - name: twitter:title
+    value: Blog
+    keyName: ''
+    relativeUrl: false
+  - name: twitter:description
+    value: This is the blog page
+    keyName: ''
+    relativeUrl: false
+  - name: twitter:image
+    value: images/12.jpg
+    relativeUrl: true
+    keyName: ''
+  robots: []
 layout: blog
+
 ---

@@ -54,7 +54,4 @@ fields:
     required: true
 pages:
 - content/blog/games.md
-- content/blog/interior-designer.md
 - content/blog/why-fonts-matter.md
-- content/blog/working-from-home.md
-- content/blog/workplace.md
