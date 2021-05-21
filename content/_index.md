@@ -6,9 +6,19 @@ sections:
     template: section_hero
     title: 'Hi, I''m Allan Froy.'
     section_id: hero
-    content: >-
-      This section can contain a subtitle or tagline. The recommended length is
-      one to three sentences, but can be changed as you prefer.
+    content: >
+      I'm a coach, trainer, facilitator and strategist focused on real-time
+      business and event-driven mindset. 
+
+
+      I'm like WD-40 for your company's data; I help ease the movement of
+      information, processes and people, bringing them together into a
+      well-oiled machine. 
+
+
+      I help businesses stay in control of their data, respond to customer needs
+      faster and optimise use of their IT assets, all while improving
+      compliance, security and resilience.
     actions:
       - type: action
         template: action
