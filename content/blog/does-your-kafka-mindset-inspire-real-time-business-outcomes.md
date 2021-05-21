@@ -1,6 +1,5 @@
 +++
 date = 2021-05-07T03:42:00Z
-draft = true
 excerpt = "I've been thinking a lot about why some businesses use Apache Kafka as a catalyst for wider change and others adopt it simply as more efficient tooling."
 image = "/images/event-backbone-value.png"
 image_alt = ""
