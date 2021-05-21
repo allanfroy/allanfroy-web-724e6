@@ -40,6 +40,7 @@ params:
         url: /contact/
         style: link
     logo_img: /images/Screenshot 2021-03-10 at 11.54.31.png
+    logo_img_alt: Allan Froy Logo
   footer:
     type: footer
     template: footer
