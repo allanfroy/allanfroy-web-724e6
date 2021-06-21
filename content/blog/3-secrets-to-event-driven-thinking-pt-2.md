@@ -1,6 +1,6 @@
 +++
 date = 2021-05-23T23:49:00Z
-excerpt = ""
+excerpt = "I'm posting short dialogues that highlight the 3 most common challenges I see in understanding event-driven thinking. Part 2 looks at letting consumers dictate the contents of an event."
 image = "/images/volodymyr-hryshchenko-v5vqwc9gyeu-unsplash.jpg"
 image_alt = ""
 layout = "post"
