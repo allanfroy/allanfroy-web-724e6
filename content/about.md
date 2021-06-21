@@ -3,7 +3,7 @@ title: About Me
 subtitle: >-
   Coach, Trainer, Strategist | Real-Time Business | Event-Driven Mindset |
   Apache Kafka
-image: images/about.jpg
+image: /images/tfl_profile_square.jpg
 image_alt: A man taking a picture
 seo:
   type: stackbit_page_meta
