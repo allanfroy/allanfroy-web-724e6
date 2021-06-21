@@ -35,11 +35,16 @@ seo:
       relativeUrl: true
 layout: page
 ---
+I'm a coach, trainer, facilitator and strategist focused on real-time business and event-driven mindset. My mission is to help businesses think beyond the platform to create more ambitious and holistic event streaming capabilities.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel venenatis augue. Suspendisse tincidunt, nibh eget sodales eleifend, lectus magna elementum lorem, ut bibendum tellus turpis quis risus. Vivamus sagittis enim est, et semper lectus hendrerit ut.
+> I'm like WD-40 for your company's data; I help ease the movement of information, processes and people, bringing them together into a well-oiled machine. 
 
->The world always seems brighter when you’ve just made something that wasn’t there before. - Neil Gaiman
+I help businesses stay in control of their data, respond to customer needs faster and optimise use of their IT assets, all while improving compliance, security and resilience.
 
-In sollicitudin imperdiet turpis quis accumsan. Pellentesque euismod turpis et nisi fermentum accumsan. Sed mollis vehicula augue sit amet accumsan. Nunc mollis, risus sed ullamcorper bibendum, odio est molestie tellus, venenatis rutrum mauris nibh at nibh. In a auctor leo, eu pretium ante. Quisque faucibus tincidunt fringilla. Donec tempor accumsan ante, in cursus metus tincidunt at. Proin sit amet ligula sed libero consequat consectetur eu tincidunt nulla. 
+As a strategist, coach and facilitator, I work with data and technology leaders to create strategies for real time business.
 
-*Thank You for reading!*
+As an experienced guide and advocate, I coach individuals and teams to build confidence in a new event-driven paradigm and mindset, helping them break through the unknown, think beyond the tools and overcome traditional data thinking.
+
+I've been working with Apache Kafka, event streaming and Confluent Kafka since 2016. Most recently I've helped two NZ banks migrate legacy data to event streams and build trust in that data through decentralised, community-led data governance and ownership. This democratisation of data supports their cloud transformation strategies and will unlock innovation across the business.
+
+Currently I offer outcome-based services related to democratising data governance, creating real-time business, training an event-driven mindset, Apache Kafka and real-time event streaming.
