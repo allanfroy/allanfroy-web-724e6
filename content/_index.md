@@ -15,6 +15,13 @@ sections:
         label: Let's talk
         url: /contact
         style: button
+      - label: lorem-ipsum
+        url: '#'
+        style: link
+        icon: dribbble
+        new_window: false
+        no_follow: false
+        type: action
   - type: section_posts
     template: section_posts
     title: Latest from the Blog
